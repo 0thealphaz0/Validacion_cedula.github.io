@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-color: rgb(204, 200, 200);
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.titulo{
+    
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+.contenedor{
+
+    position: relative;
+    background-color:rgba(103, 121, 150, 0.507);
+    top: 100px;
+    width: 400px;
+    height: 180px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    border: 5px solid;
+}
+
+#contenedor1 .lblcedula{
+
+    top: auto;
+    color: black;
+    display: flex;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.boton{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(132, 154, 194);
+    margin-left: 290px;
+    margin-top: -4px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.boton:hover{
+
+    background-color: rgb(133, 140, 243);
+}
+
+.boton:active{
+    background-color: rgb(24, 45, 226);
+}
+
+#contenedor1 .ICedula1{
+
+    display: flex;
+    text-align: center ;
+    background-color: rgb(232, 235, 235);
+    margin-left: 135px;
+    margin-top: -18px;
+    border-radius: 10px;
+}
+
+#no_valido{
+
+    position: absolute;
+    color: red;
+    margin-top: -18px;
+    margin-left: 138px;
+}
+
+#valido{
+
+    position: absolute;
+    color: green;
+    margin-top: -18px;
+    margin-left: 138px;
+}
